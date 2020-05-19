@@ -1,5 +1,5 @@
 #
-#  Be sure to run `pod spec lint JackyOpenLib.podspec' to ensure this is a
+#  Be sure to run `pod spec lint JackyHelper.podspec' to ensure this is a
 #  valid spec and to remove all comments including this before submitting the spec.
 #
 #  To learn more about Podspec attributes see https://guides.cocoapods.org/syntax/podspec.html
@@ -15,19 +15,19 @@ Pod::Spec.new do |spec|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  spec.name         = "JackyOpenLib"
-  spec.version      = "0.0.1"
-  spec.summary      = "非常简单得JackyOpenLib."
+  spec.name         = "JackyHelper"
+  spec.version      = "0.0.2"
+  spec.summary      = "A short."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
+  spec.description  = <<-DESC "JJJJJJJJJJJJJJJJJJJJJJJJJ"
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/JackyOpenLib"
+  spec.homepage     = "https://github.com/realjackill/JackyHelper"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +38,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT (example)"
+  spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -52,9 +52,9 @@ Pod::Spec.new do |spec|
   #  profile URL.
   #
 
-  spec.author             = { "张杰" => "Jacky" }
+  spec.author             = { "张杰" => "7949398@qq.com" }
   # Or just: spec.author    = "张杰"
-  # spec.authors            = { "张杰" => "Jacky" }
+  # spec.authors            = { "张杰" => "7949398@qq.com" }
   # spec.social_media_url   = "https://twitter.com/张杰"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -67,7 +67,7 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  # spec.ios.deployment_target = "8.0"
+  # spec.ios.deployment_target = "5.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
@@ -79,7 +79,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/JackyOpenLib.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/realjackill/JackyHelper.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
